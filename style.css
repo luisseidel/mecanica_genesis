@@ -1,0 +1,14 @@
+/*
+Theme name: piraipneus
+Author: Luis Guilherme Seidel
+Author URI: https://luisseidel.netlify.app/
+Version: 1. 0. 0.;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
