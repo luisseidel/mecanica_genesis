@@ -1,67 +1,77 @@
 <footer>
-        <section class="container footer-content">
-            <div class="logo-footer">
-                <?php
-                    $custom_logo_id = get_theme_mod( 'custom_logo' );
-                    $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-                ?>
-                <img class="logo" src="<?= $image[0]; ?>" alt="logo">
-            </div>
+    <section class="container footer-content">
 
-            <div class="footer-info">
-                <a href="https://www.google.com/maps/place/Piraí+Pneus+-+R.+Fábio+Brito+de+Azambuja,+280+-+São+Cristóvão,+Lajeado+-+RS,+95913-068/@-29.444484,-51.9650374,17z/data=!4m2!3m1!1s0x951c616caa6f4f51:0x78d3f428c715f313" 
-                    target="_blank" rel="noopener noreferrer">
-                    <p>
-                        <i class="fa-solid fa-location-dot fa-lg"></i>
-                        <span>Rua Fábio Brito de Azambuja, 280, São Cristóvão - Lajeado/RS</span>
-                    </p>
-                </a>
+        <div class="footer-info">
 
-                <a href="tel:+555130111460" target="_blank">
-                    <p>
-                        <i class="fa-solid fa-phone fa-lg"></i>
-                        <span>51 3011-1460</span>
-                    </p>    
-                </a>
-
-                <a  href="https://api.whatsapp.com/send?phone=5551981842396&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" 
-                    target="_blank">
+            <div>
+                <h2>Contato</h2>
+                <a href="https://api.whatsapp.com/send?phone=5554999192389&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" target="_blank">
                     <p>
                         <i class="fa-brands fa-whatsapp fa-lg"></i>
-                        <span>51 9 8184-2396</span>
+                        <span>54 9 9919-2389</span>
+                    </p>
+                </a>
+
+                <a href="mailto:mecanicapassofundo@hotmail.com" target="_blank">
+                    <p>
+                        <i class="fa-solid fa-envelope fa-lg"></i>
+                        <span>
+                            mecanicapassofundo@hotmail.com
+                        </span>
                     </p>
                 </a>
             </div>
 
-            <div class="footer-social-link">
-                <a  href="https://api.whatsapp.com/send?phone=5551981842396&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" 
-                    class="whats-btn" target="_blank">
-                    <i class="fa-brands fa-whatsapp fa-xl" style="margin-top: -2px;"></i>
+            <div>
+                <h2>Endereço</h2>
+                <a href="https://goo.gl/maps/eiAMxxrdDRvEKAfH7" target="_blank" rel="noopener noreferrer">
+                    <p>
+                        <i class="fa-solid fa-location-dot fa-lg"></i>
+                        <span>R. Paissandú, 2953 - Boqueirão, Passo Fundo - RS</span>
+                    </p>
                 </a>
-                <ul>
-                    <li>
-                        <a href="https://www.facebook.com/piraipneuslajeado" target="_blank">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/piraipneuslajeado" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
             </div>
-        </section>
 
-    <?php 
-        $url = wp_get_upload_dir();
-        $url = $url['url'] . "/luis_logo.png";
+            <div>
+                <h2>Horário de Atendimento</h2>
+                <a href="#">
+                    <p>
+                        <i class="fa-solid fa-clock fa-lg"></i>
+                        <span>Segunda a Sexta-feira, das 8h às 18h.</span>
+                    </p>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-social-link">
+            <a href="https://api.whatsapp.com/send?phone=55549991923896&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" class="whats-btn" target="_blank">
+                <i class="fa-brands fa-whatsapp fa-xl" style="margin-top: -2px;"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/mecanicagenesis" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mecanicagenesis" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <?php
+    $url = wp_get_upload_dir();
+    $url = $url['url'] . "/luis_logo.png";
     ?>
 
     <div class="bar">
         <p>Copyright &copy; <?= date("Y"); ?></p>
         <a href="https://luisseidel.netlify.app/" target="_blank">
-            <img src="<?=$url?>" alt="luis">
+            <img src="<?= $url ?>" alt="luis">
         </a>
     </div>
 
@@ -70,4 +80,5 @@
 <?php wp_footer(); ?>
 
 </body>
+
 </html>

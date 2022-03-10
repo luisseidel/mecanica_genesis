@@ -14,7 +14,7 @@
         <div class="menu-mobile container">
             <div class="menu mobile">
                 <button class="menu-btn" onclick="toggle()">
-                    <i class="fa-solid fa-bars fa-2xl" aria-hidden="true"></i>
+                    <i class="fa-solid fa-gear fa-2xl" aria-hidden="true"></i>
                 </button>
             </div>
 
@@ -30,18 +30,18 @@
                 <div class="menu-links desktop">
                     <ul>
                         <li>
-                            <a href="#quem-somos">
-                                <p>Quem Somos</p>
+                            <a href="#home">
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sobre-nos">
+                                <p>Sobre Nós</p>
                             </a>
                         </li>
                         <li>
                             <a href="#servicos">
                                 <p>Serviços</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#pneus">
-                                <p>Pneus</p>
                             </a>
                         </li>
                         <li>
@@ -68,22 +68,22 @@
             <div class="sidebar-main">
                 <ul>
                     <li>
-                        <a href="#quem-somos" onclick="hide()">
-                            <p>Quem Somos</p>
+                        <a href="#home">
+                            <p>Home</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#servicos" onclick="hide()">
+                        <a href="#sobre-nos">
+                            <p>Sobre Nós</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#servicos">
                             <p>Serviços</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#pneus" onclick="hide()">
-                            <p>Pneus</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contato" onclick="hide()">
+                        <a href="#contato">
                             <p>Contato</p>
                         </a>
                     </li>

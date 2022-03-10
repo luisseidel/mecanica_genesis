@@ -15,7 +15,7 @@
 <h2 id="proposito" align="center"> :dart: Propósito e Funcionamento</h2>
 
 <p>
-    Landing Page para a Piraí Pneus.
+    Landing Page para a Mecânica Genesis.
 </p>
 
 <hr>
@@ -27,7 +27,7 @@
 <ul>
     <li>HTML 5</li>
     <li>CSS 3</li>
-    <li>WordPress 5.9</li>
+    <li>WordPress 5.9.1</li>
     <li>PHP 8</li>
     <li>VSCode</li>
     <li>Javascript ES6</li>

@@ -1,9 +1,17 @@
 function show() {
-	const sidebar = document.querySelector(".sidebar");
-	sidebar.classList.add("visible");
-	document.body.style.overflow = "hidden";
+    const menuMobBtn = document.querySelector(".menu-btn");
+    menuMobBtn.classList.add("rotate");
+
+    setTimeout(() => {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.classList.add("visible");
+        document.body.style.overflow = "hidden";
+    }, 800);
 }
 function hide() {
+    const menuMobBtn = document.querySelector(".menu-btn");
+    menuMobBtn.classList.remove("rotate");
+
 	const sidebar = document.querySelector(".sidebar");
 	sidebar.classList.remove("visible");
 	document.body.style.overflow = "";
@@ -20,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
 
-            var phone = "5551981842396";
+            var phone = "5554999192389";
             var nome = document.querySelector('#nome').value.trim();
             var text = document.querySelector('#mensagem').value.trim();
 
