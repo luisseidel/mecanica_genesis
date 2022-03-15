@@ -262,10 +262,12 @@ textarea {
     position: absolute;
     top: 50%;
     left: 10%;
+
 }
 
 .slider-text p {
-    font-size: 36px;
+    font-size: 24px;
+    color: var(--white);
     line-height: 48px;
     font-weight: bold;
 }
@@ -485,6 +487,10 @@ footer div {
     .slider-banner .swiper-slide img {
         height: 600px;
         object-position: 0 36%;
+    }
+
+    .slider-text p {
+        font-size: 36px;
     }
 
     .menu-mobile {

@@ -6,7 +6,10 @@
                 $args = array('numberposts' => 5, 'category_name' => 'banner-mobile');
                 $posts = get_posts($args);
                 foreach ($posts as $post) : setup_postdata($post); ?>
-                    <div class="swiper-slide"> <?php the_post_thumbnail(); ?> </div>
+                    <div class="swiper-slide"> 
+                        <?php the_post_thumbnail(); ?> 
+                        <div class="slider-text"><?php the_content(); ?></div>
+                    </div>
                 <?php endforeach; ?>
             </div>
             <div class="slider-banner desktop">
