@@ -242,8 +242,8 @@ textarea {
     transition: ease-in-out 0.2s;
 }
 
-.sidebar-main ul li a p {
-    color: var (--almost-white);
+.sidebar-main ul li a {
+    color: var(--almost-white);
 }
 
 @keyframes slide {
