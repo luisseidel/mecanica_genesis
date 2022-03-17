@@ -45,21 +45,9 @@
         </div>
 
         <div class="footer-social-link">
-            <a href="https://api.whatsapp.com/send?phone=55549991923896&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" class="whats-btn" target="_blank">
-                <i class="fa-brands fa-whatsapp fa-xl" style="margin-top: -2px;"></i>
+            <a href="https://api.whatsapp.com/send?phone=5554999192389&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" class="whats-btn" target="_blank">
+                <i class="fa-brands fa-whatsapp fa-xl"></i>
             </a>
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/mecanicagenesis" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/mecanicagenesis" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
         </div>
     </section>
 
@@ -70,9 +58,6 @@
 
     <div class="bar">
         <p>Copyright &copy; <?= date("Y"); ?></p>
-        <a href="https://luisseidel.netlify.app/" target="_blank">
-            <img src="<?= $url ?>" alt="luis">
-        </a>
     </div>
 
 </footer>

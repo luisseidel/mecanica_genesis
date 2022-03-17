@@ -5,9 +5,15 @@
     <title><?php bloginfo('name'); ?> &raquo; <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis Guilherme Seidel">
     <?php wp_head(); ?>
 </head>
 
+<style>
+    html { 
+        margin-top: 0px !important;
+    }
+</style>
 <body <?php body_class(); ?>>
 
     <header>
