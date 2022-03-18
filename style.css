@@ -69,6 +69,8 @@ a img:hover {
 }
 
 .footer-info a p {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     align-items: center;
 }
@@ -178,6 +180,8 @@ textarea {
 }
 
 .menu-mobile {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,12 +189,16 @@ textarea {
 }
 
 .menu-mobile .logo-container {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .menu-links ul {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -235,7 +243,10 @@ textarea {
 }
 
 .sidebar .content .sidebar-header {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     justify-content: flex-end;
     align-items: center;
 }
@@ -311,7 +322,10 @@ section:not(:first-child) {
 }
 
 .card-group {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -327,7 +341,10 @@ section:not(:first-child) {
     border-radius: 15px;
     background: rgba(255,255,255,0.05);
 
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     flex-direction: column;
 }
 
@@ -336,7 +353,10 @@ section:not(:first-child) {
 }
 
 .card-content {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     flex-direction: column;
     padding: 15px;
 }
@@ -372,7 +392,10 @@ section:not(:first-child) {
 }
 
 .contato-mapa {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     gap: 60px;
@@ -397,7 +420,10 @@ section:not(:first-child) {
 }
 
 .contato-form {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -405,13 +431,16 @@ section:not(:first-child) {
 }
 
 .btn-enviar {
-    height: 50px;
-
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
+
     justify-content: center;
     align-items: center;
+    height: 50px;
 
     gap: 15px;
+    background: var(--almost-white);
 }
 
 .btn-enviar:active {
@@ -420,6 +449,8 @@ section:not(:first-child) {
 }
 
 .contato-mapa .contact-links {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -435,12 +466,16 @@ footer div {
 }
 
 .footer-content {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .footer-info {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -474,6 +509,8 @@ footer div {
     font-size:30px;
     z-index:1000;
 
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -489,6 +526,8 @@ footer div {
 }
 
 .footer-social-link ul {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -525,6 +564,8 @@ footer div {
 }
 
 .bar {
+    display: -webkit-flex;
+    display: -webkit--box;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
