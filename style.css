@@ -145,7 +145,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -346,6 +346,10 @@ section:not(:first-child) {
     color: var(--red);
 }
 
+.card-text p {
+    text-align: justify;
+}
+
 .missao-container .card {
     background: rgba(0,0,0,0.02);
 }
@@ -368,11 +372,12 @@ section:not(:first-child) {
 
 .contato-mapa {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 60px;
+
+    max-width: 500px;
+    margin: auto;
 }
 
 .contato-mapa a svg {
@@ -388,6 +393,36 @@ section:not(:first-child) {
 .contato-mapa a:hover svg path {
     fill: var(--red);
     transition: ease-in-out 0.3s;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-enviar {
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.btn-enviar:active {
+    filter: brightness(0.5);
+    transition: ease-in-out 0.3s;
+}
+
+.contato-mapa .contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
 footer {
@@ -567,11 +602,11 @@ footer div {
 
     .contato-mapa {
         flex-direction: row;
-        justify-content: space-between;
     }
 
-    .contato-mapa a img {
-        height: 90px;
+    .contato-mapa .contact-links {
+        max-width: 50%;
+        margin: auto;
     }
 
     .footer-content {

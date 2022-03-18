@@ -29,8 +29,8 @@
                         <?php the_post_thumbnail(); ?>
                         <div class="slider-text">
                             <p>
-                                Experiência de quem 
-                                é apaixonado por carro 
+                                Experiência de quem
+                                é apaixonado por carro
                                 e sabe o que faz.
                             </p>
                         </div>
@@ -42,7 +42,7 @@
 
 
     <section class="sobre-nos" id="sobre-nos">
-        
+
         <div class="quem-somos container">
             <h1>Sobre Nós</h1>
             <?php global $post;
@@ -80,7 +80,7 @@
                         <div class="card-title">
                             <?php the_title(); ?>
                         </div>
-    
+
                         <div class="post-content mt-20">
                             <div class="post-text"> <?php the_content(); ?> </div>
                         </div>
@@ -123,47 +123,32 @@
     </section>
 
     <section class="container" id="contato">
-        <h1>Contato</h1>
-        <div class="contato-mapa mt-40">
-            <?php
-            $url_whats = wp_get_upload_dir();
-            $url_whats = $url_whats['url'] . "/whats.png";
-            ?>
-            <a href="https://api.whatsapp.com/send?phone=5554999192389&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" target="_blank">
-                <i class="fa-brands fa-whatsapp fa-2xl"></i>
-            </a>
+        <h1 class="mb-40">Contato</h1>
 
-            <?php
-            $url_insta = wp_get_upload_dir();
-            $url_insta = $url_insta['url'] . "/instagram-icon.png";
-            ?>
-            <a href="https://www.instagram.com/mecanicagenesis" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-instagram fa-2xl"></i>
-            </a>
+        <div class="contato-mapa">
+            <div class="contato">
+                <form action="" method="post" class="contato-form" target="_blank">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" autocomplete="off" required>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem" autocomplete="off" required></textarea>
+                    <button type="submit" class="btn-enviar">
+                        <p>Enviar</p> <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    </button>
+                </form>
+            </div>
 
-            <?php
-            $url_face = wp_get_upload_dir();
-            $url_face = $url_face['url'] . "/facebook-icon.png";
-            ?>
-            <a href="https://www.facebook.com/mecanicagenesis" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-facebook fa-2xl"></i>
-            </a>
+            <div class="contact-links">
+                <a href="https://www.instagram.com/mecanicagenesis" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
 
-            <?php
-            $url_map = wp_get_upload_dir();
-            $url_map = $url_map['url'] . "/map.png";
-            ?>
-            <a href="https://goo.gl/maps/eiAMxxrdDRvEKAfH7" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-map-location-dot fa-2xl"></i>
-            </a>
+                <a href="https://www.facebook.com/mecanicagenesis" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                </a>
 
-            <?php
-            $url_mail = wp_get_upload_dir();
-            $url_mail = $url_mail['url'] . "/mail.png";
-            ?>
-            <a href="mailto:mecanicapassofundo@hotmail.com" target="_blank">
-                <i class="fa-solid fa-envelope fa-2xl"></i>
-            </a>
+                <a href="https://goo.gl/maps/eiAMxxrdDRvEKAfH7" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-map-location-dot fa-2xl"></i>
+                </a>
+            </div>
 
         </div>
     </section>
