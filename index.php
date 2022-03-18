@@ -123,7 +123,7 @@
     </section>
 
     <section class="container" id="contato">
-        <h1 class="mb-40">Contato</h1>
+        <h1>Contato</h1>
 
         <div class="contato-mapa">
             <div class="contato">

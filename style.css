@@ -36,6 +36,7 @@ h1 {
     font: normal normal bolder 36px/36px 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -564,7 +565,6 @@ footer div {
 
     .slider-banner .swiper-slide img {
         height: 600px;
-        object-position: 0 36%;
     }
 
     .slider-text p {
@@ -598,10 +598,6 @@ footer div {
 
     .links-container {
         width: 40%;
-    }
-
-    .contato-mapa {
-        flex-direction: row;
     }
 
     .contato-mapa .contact-links {
