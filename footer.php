@@ -5,7 +5,7 @@
 
             <div>
                 <h2>Contato</h2>
-                <a href="https://api.whatsapp.com/send?phone=5554999192389&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" target="_blank">
+                <a href="https://web.whatsapp.com/send?phone=555554999192389&amp;text=Ol%C3%A1%2C+vim+pelo+site+de+voc%C3%AAs%2C+poderia+me+ajudar%3F" target="_blank">
                     <p>
                         <i class="fa-brands fa-whatsapp fa-lg"></i>
                         <span>54 9 9919-2389</span>
@@ -45,16 +45,22 @@
         </div>
 
         <div class="footer-social-link">
-            <a href="https://api.whatsapp.com/send?phone=5554999192389&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F" class="whats-btn" target="_blank">
+            <a href="https://web.whatsapp.com/send?phone=555554999192389&amp;text=Ol%C3%A1%2C+vim+pelo+site+de+voc%C3%AAs%2C+poderia+me+ajudar%3F" class="whats-btn" target="_blank">
                 <i class="fa-brands fa-whatsapp fa-xl"></i>
             </a>
         </div>
     </section>
 
-    <?php
-    $url = wp_get_upload_dir();
-    $url = $url['url'] . "/luis_logo.png";
-    ?>
+    <div id="cookieNotice" class="cookie-consent d-flex flex-column flex-lg-row justify-content-center align-items-center w-100">
+        <div class="cookie-content">
+            <p>Este site utiliza cookies para melhorar sua experiência!</p>
+        </div>
+        <div class="cookie-accept">
+            <button onclick="acceptCookieConsent()" class="secundario">
+                Continuar
+            </button>
+        </div>
+    </div>
 
     <div class="bar">
         <p>Copyright &copy; <?= date("Y"); ?></p>

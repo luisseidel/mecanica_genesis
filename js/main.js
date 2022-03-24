@@ -22,6 +22,24 @@ function toggle() {
 	sidebar.classList.contains("visible") ? hide() : show();
 }
 
+function acceptCookieConsent() {
+    var cookienotice = document.getElementById("cookieNotice");
+
+    if (cookienotice.classList.contains('inactive')) {
+        cookienotice.classList.remove('inactive');
+    } else {
+        cookienotice.classList.add('inactive');
+    }
+   
+}
+  
+  jQuery(document).ready(function ($) {
+  
+    $("#nav-icon4").click(function () {
+      $(this).toggleClass("open");
+    });
+  });
+
 document.addEventListener("DOMContentLoaded", function() {
     var form = document.querySelector('.contato-form');
     if (form) {
