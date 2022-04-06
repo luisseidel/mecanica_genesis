@@ -299,9 +299,8 @@ textarea {
 
 .slider-text {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
-
 }
 
 .slider-text p {
@@ -637,6 +636,12 @@ footer div {
 
     .slider-banner .swiper-slide img {
         height: 600px;
+    }
+
+    .slider-text {
+        position: absolute;
+        top: 30%;
+        left: 10%;
     }
 
     .slider-text p {

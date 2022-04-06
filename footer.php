@@ -5,7 +5,7 @@
 
             <div>
                 <h2>Contato</h2>
-                <a href="https://web.whatsapp.com/send?phone=555554999192389&amp;text=Ol%C3%A1%2C+vim+pelo+site+de+voc%C3%AAs%2C+poderia+me+ajudar%3F" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5554999192389&amp;text=Ol%C3%A1%2C+vim+pelo+site+de+voc%C3%AAs%2C+poderia+me+ajudar%3F" target="_blank">
                     <p>
                         <i class="fa-brands fa-whatsapp fa-lg"></i>
                         <span>54 9 9919-2389</span>
@@ -45,7 +45,7 @@
         </div>
 
         <div class="footer-social-link">
-            <a href="https://web.whatsapp.com/send?phone=555554999192389&amp;text=Ol%C3%A1%2C+vim+pelo+site+de+voc%C3%AAs%2C+poderia+me+ajudar%3F" class="whats-btn" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5554999192389&amp;text=Ol%C3%A1%2C+vim+pelo+site+de+voc%C3%AAs%2C+poderia+me+ajudar%3F" class="whats-btn" target="_blank">
                 <i class="fa-brands fa-whatsapp fa-xl"></i>
             </a>
         </div>
